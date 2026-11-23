@@ -39,6 +39,8 @@ body {
   letter-spacing: 0;
   color: var(--fg-1);
   background: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
 }
 
 /* 포커스: 항상 보이는 2px 아웃라인 + 2px 오프셋 */
