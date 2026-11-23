@@ -1,2 +1,2 @@
-# -3-
+# -self introduce
 클로드강의 3일차
