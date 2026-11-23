@@ -173,7 +173,9 @@ h2 {
   border: 1px solid var(--border-default);
   border-radius: var(--radius-xlarge);
   padding: 24px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
+.card:hover { transform: translateY(-2px); }
 .card-link {
   display: block;
   color: inherit;
