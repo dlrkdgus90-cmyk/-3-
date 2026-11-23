@@ -212,6 +212,40 @@ h2 {
   color: var(--fg-2);
 }
 
+/* 나의 꿈: 강조 패널 */
+.dream {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  align-items: center;
+  padding: 32px;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, var(--primary-70) 0%, var(--primary-60) 100%);
+  border-radius: var(--radius-xlarge);
+}
+.dream-grade {
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  padding-right: 24px;
+  border-right: 1px solid rgba(255, 255, 255, 0.35);
+}
+.dream-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #BFD4FB;
+}
+.dream-text {
+  margin-top: 4px;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.dream-text em { font-style: normal; color: #FFD66B; }
+
 /* 푸터 */
 footer {
   background: var(--gray-100);
@@ -231,4 +265,7 @@ footer .container { border-top: 1px solid #1E2124; padding-top: 24px; }
   section.module { padding-top: 40px; }
   .structured-list > div { grid-template-columns: 1fr; gap: 2px; }
   .card-grid { grid-template-columns: 1fr; }
+  .dream { grid-template-columns: 1fr; gap: 16px; padding: 24px; }
+  .dream-grade { font-size: 44px; padding-right: 0; padding-bottom: 16px; border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.35); }
+  .dream-text { font-size: 19px; }
 }
