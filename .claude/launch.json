@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "정적 자기소개",
+      "name": "3일차 정적자기소개",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "정적 자기소개"],
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "3일차 정적자기소개"],
       "port": 8123
     }
   ]
