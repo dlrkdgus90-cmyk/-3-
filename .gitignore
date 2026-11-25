@@ -1,0 +1,14 @@
+# 개인 작업 폴더 (GitHub에 올리지 않음)
+ppt/
+바이브 코딩 아이디어/
+이미지파일/
+
+# 환경변수 파일 (실제 키 값 보호)
+.env*
+!.env.example
+
+# 기타
+node_modules/
+.next/
+.vercel/
+.claude/settings.local.json
