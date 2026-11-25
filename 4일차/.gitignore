@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+# 게시글 저장 파일 (실제 데이터라 Git에 올리지 않음)
+data/
